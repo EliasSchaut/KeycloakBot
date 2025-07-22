@@ -1,0 +1,37 @@
+{
+  "name": "keycloakbot",
+  "version": "1.0.0-beta",
+  "description": "A Discord bot that grants members accounts and permissions in Keycloak",
+  "homepage": "https://github.com/EliasSchaut/KeycloakBot#readme",
+  "bugs": {
+    "url": "https://github.com/EliasSchaut/KeycloakBot/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EliasSchaut/KeycloakBot.git"
+  },
+  "license": "MIT",
+  "author": "EliasSchaut",
+  "type": "commonjs",
+  "main": "src/main.ts",
+  "scripts": {
+    "start": "nest start",
+    "dev": "nest start --debug --watch",
+    "build": "nest build",
+    "test": "jest --config=jest.config.json"
+  },
+  "dependencies": {
+    "@discord-nestjs/common": "^5.3.2",
+    "@discord-nestjs/core": "^5.5.1",
+    "@nestjs/common": "^11.1.5",
+    "@nestjs/config": "^4.0.2",
+    "@nestjs/core": "^11.1.5",
+    "@nestjs/platform-express": "^11.1.5",
+    "class-validator": "^0.14.2",
+    "discord.js": "^14.21.0"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "^11.0.7",
+    "prettier": "^3.6.2"
+  }
+}
